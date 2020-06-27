@@ -1,0 +1,30 @@
+.parallax-container {
+    height: 80vh;
+    background: transparent;
+  }
+
+.padding-top{
+  padding-top: 5vh;
+}
+
+.career{
+  margin-top: 5vh;
+}
+
+.players{
+  display: flex;
+  flex-direction: row;
+}
+
+#info{
+  background-color: black;
+  color: aliceblue;
+  height: 50vh;
+  text-align: justify;
+}
+
+#penguin{
+  background-color: black;
+  height: 50vh;
+  color: aliceblue;
+}
