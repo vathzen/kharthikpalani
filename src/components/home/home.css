@@ -16,6 +16,25 @@
   flex-direction: row;
 }
 
+.video{
+  margin-right: 50px;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.thumbs{
+  height: 30vh;
+  margin-top: 30px;
+  min-width: 30vh;
+  flex-basis: 40%;
+}
+
 #info{
   background-color: black;
   color: aliceblue;
@@ -26,5 +45,10 @@
 #penguin{
   background-color: black;
   height: 50vh;
+  color: aliceblue;
+}
+
+#gallery{
+  background-color: black;
   color: aliceblue;
 }

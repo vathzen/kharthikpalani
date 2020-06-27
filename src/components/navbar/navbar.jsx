@@ -9,7 +9,7 @@ class NavBar extends Component {
 
     render() {
         return (
-            <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black">
+            <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black nav-height">
                 <div class="container-fluid ">
                     <NavLink className="navbar-brand" to="/" id="navbar-brand"><img src={Logo} alt="" id="logo"></img></NavLink>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -18,7 +18,7 @@ class NavBar extends Component {
                     <div className="collapse navbar-collapse align-class" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item text-center" id="product-btn">
-                                <NavLink to="/" className="nav-link avenir"><span>Director Of Photography</span></NavLink>
+                                <NavLink to="/" className="nav-link montserrat"><span class="font-var">Director of Photography</span></NavLink>
                             </li>
                         </ul>
                     </div>
