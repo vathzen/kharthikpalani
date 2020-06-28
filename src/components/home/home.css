@@ -31,21 +31,47 @@
 .thumbs{
   height: 30vh;
   margin-top: 30px;
-  min-width: 30vh;
-  flex-basis: 40%;
+  min-width: 40vh;
+  flex-basis: 45%;
+}
+
+.align-icons{
+  justify-content: space-evenly;
+}
+
+.gallery-title{
+  color: aliceblue;
+  font-size: 9vh;
+  -webkit-text-stroke: 2px white;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.padding-top-gallery{
+  position: relative;
+  top: 60%;
+}
+
+.content{
+  font-size: 13px;
+}
+.content-title{
+  font-size: 26px;
 }
 
 #info{
   background-color: black;
   color: aliceblue;
-  height: 50vh;
+  /* min-height: 50vh; */
   text-align: justify;
+  padding-bottom: 5vh;
 }
 
 #penguin{
   background-color: black;
-  height: 50vh;
+  /* height: 50vh; */
   color: aliceblue;
+  padding-bottom: 5vh;
 }
 
 #gallery{
@@ -57,8 +83,4 @@ footer{
   background-color: #303336;
   color: aliceblue;
   padding-bottom: 8vh;
-}
-
-.align-icons{
-  justify-content: space-around;
 }
