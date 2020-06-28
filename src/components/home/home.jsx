@@ -79,14 +79,15 @@ class Home extends Component {
                 </section>
                 <footer>
                     <div class="container padding-top">
-                        <div class="col-4">
-                            <div class="row"><h3 class="montserrat">Contact Me</h3></div>
-                            <div class="row montserrat"><img src={Insta}  alt=""/>&nbsp;Instagram   : @Kharthikdop</div><br/>
-                            <div class="row montserrat"><img src={Twitter}  alt=""/>&nbsp;Twitter     : @KharthikDP</div><br/>
-                            <div class="row montserrat"><img src={Facebook}  alt=""/>&nbsp;Facebook    : @InsideKarthik</div><br/>
-                            <div class="row montserrat"><img src={Email}  alt=""/>&nbsp;Email       : kharthikpalanidp@gmail.com</div><br/>
+                        <div class="row align-icons">
+                            <h2 class="display-6 montserrat font-var">Contact Me</h2>
                         </div>
-                        <div class="col-4">
+                        <br/>
+                        <div class="row align-icons">
+                            <a href="https://www.instagram.com/kharthikdop/"><img src={Insta}  alt=""/></a>
+                            <a href="https://www.instagram.com/kharthikdop/"><img src={Twitter}  alt=""/></a>
+                            <a href="https://www.instagram.com/kharthikdop/"><img src={Facebook}  alt=""/></a>
+                            <a href="https://www.instagram.com/kharthikdop/"><img src={Email}  alt=""/></a>
                         </div>
                     </div>
                 </footer>
