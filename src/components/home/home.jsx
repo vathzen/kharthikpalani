@@ -86,9 +86,9 @@ class Home extends Component {
                         <br/>
                         <div class="row align-icons">
                             <a href="https://www.instagram.com/kharthikdop/"><img src={Insta}  alt=""/></a>
-                            <a href="https://www.instagram.com/kharthikdop/"><img src={Twitter}  alt=""/></a>
-                            <a href="https://www.instagram.com/kharthikdop/"><img src={Facebook}  alt=""/></a>
-                            <a href="https://www.instagram.com/kharthikdop/"><img src={Email}  alt=""/></a>
+                            <a href="https://twitter.com/KharthikDP"><img src={Twitter}  alt=""/></a>
+                            <a href="https://www.facebook.com/insidekarthik"><img src={Facebook}  alt=""/></a>
+                            <a href="mailto:kharthikpalanidp@gmail.com"><img src={Email}  alt=""/></a>
                         </div>
                     </div>
                 </footer>
