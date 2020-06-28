@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
+import { Element,scroller,animateScroll } from 'react-scroll'
 
 import './home.css'
 
@@ -7,26 +8,89 @@ import kharthik from '../../assets/img/karthik.jpg'
 import still1 from '../../assets/img/still1.jpg'
 import promo from '../../assets/img/promo.png'
 import still3 from '../../assets/img/still2.jpg'
-
 import Image1 from '../../assets/img/gallery/image1.jpg'
 import Image2 from '../../assets/img/gallery/image2.jpg'
 import Image3 from '../../assets/img/gallery/image3.jpg'
 import Image4 from '../../assets/img/gallery/image4.jpg'
 import Image5 from '../../assets/img/gallery/image5.jpg'
 import Image6 from '../../assets/img/gallery/image6.jpg'
-
 import Insta from '../../assets/img/insta.png'
 import Twitter from '../../assets/img/twitter.png'
 import Facebook from '../../assets/img/facebook.png'
 import Email from '../../assets/img/email.png'
 
 class Home extends Component {
+
+    scrollToInfo = () => {
+        scroller.scrollTo('info',{
+            duration: 800,
+            delay: 100,
+            offset: -300,
+            smooth: 'easeInOutQuart'
+        })
+    }
+
+    scrollToPenguin = () => {
+        scroller.scrollTo('penguin',{
+            duration: 800,
+            delay: 100,
+            offset: -200,
+            smooth: 'easeInOutQuart'
+        })
+    }
+
+    scrollToPromo = () => {
+        scroller.scrollTo('promo',{
+            duration: 800,
+            delay: 100,
+            offset: -200,
+            smooth: 'easeInOutQuart'
+        })
+    }
+
+    scrollToGallery = () => {
+        scroller.scrollTo('gallery',{
+            duration: 800,
+            delay: 100,
+            offset: -200,
+            smooth: 'easeInOutQuart'
+        })
+    }
+
+    scrollToContact = () => {
+        animateScroll.scrollToBottom()
+    }
+
+
     render() {
         return (
             <>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik}></div>
+                <nav class="scroll-bar">
+                    <a onClick={() => this.scrollToInfo()} id="nav-info">
+                        <div class="dot"></div>
+                        <span class="hover-title">Kharthik Palani</span>
+                    </a>
+                    <a onClick={() => this.scrollToPenguin()}id="nav-penguin">
+                        <div class="dot"></div>
+                        <span class="hover-title">Penguin</span>
+                    </a>
+                    <a onClick={() => this.scrollToPromo()}id="nav-promo">
+                        <div class="dot"></div>
+                        <span class="hover-title">Promo</span>
+                    </a>
+                    <a onClick={() => this.scrollToGallery()}id="nav-gallery">
+                        <div class="dot"></div>
+                        <span class="hover-title">Gallery</span>
+                    </a>
+                    <a onClick={() => this.scrollToContact()}id="nav-contact">
+                        <div class="dot"></div>
+                        <span class="hover-title">Contact Me</span>
+                    </a>
+                </nav>
                 <section id="info">
                     <div class="container padding-top">
+                        <Element name="info"></Element>
                         <h6 class="montserrat content">Kharthik Phalani is an Indian cinematographer who works in the Indian film industry. After completing his Under Graduation in Physics, He did Diploma in Film Technology (Cinematography) in FiIm & Television Institute of Tamilnadu, and started assisting Tirru from 2009.</h6>
                         <h2 class="display-6 career montserrat font-var content-title">Career</h2>
                         <h6 class="montserrat">
@@ -44,13 +108,15 @@ class Home extends Component {
                 </section>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={still1}></div>
                 <section id="penguin">
+                <Element name="penguin"></Element>
                     <div class="container padding-top">
                         <h2 class="display-6 montserrat font-var content-title">Penguin (2020)</h2>
                         <ReactPlayer url="https://www.youtube.com/watch?v=1Mwp1CfFV-k" />
                     </div>
                 </section>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={promo}></div>
-                <section id="penguin">
+                <section id="promo">
+                    <Element name="promo"></Element>
                     <div class="container padding-top">
                         <h2 class="display-6 montserrat font-var content-title">Promo</h2>
                         <div class="players">
@@ -63,6 +129,7 @@ class Home extends Component {
                     <p class="montserrat font-var gallery-title padding-top-gallery">Gallery</p>
                 </div>
                 <section id="gallery">
+                <Element name="gallery"></Element>
                     <div class="container padding-top">
                         <div class="container">
                             <div class="col">
@@ -78,7 +145,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <footer>
+                <footer id="footer">
                     <div class="container padding-top">
                         <div class="row align-icons">
                             <h2 class="display-6 montserrat font-var">Contact Me</h2>
