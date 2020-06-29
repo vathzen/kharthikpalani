@@ -36,7 +36,12 @@
 }
 
 .align-icons{
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.socials{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .gallery-title{

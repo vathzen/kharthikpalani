@@ -152,10 +152,10 @@ class Home extends Component {
                         </div>
                         <br/>
                         <div class="row align-icons">
-                            <a href="https://www.instagram.com/kharthikdop/"><img src={Insta}  alt=""/></a>
-                            <a href="https://twitter.com/KharthikDP"><img src={Twitter}  alt=""/></a>
-                            <a href="https://www.facebook.com/insidekarthik"><img src={Facebook}  alt=""/></a>
-                            <a href="mailto:kharthikpalanidp@gmail.com"><img src={Email}  alt=""/></a>
+                            <a href="https://www.instagram.com/kharthikdop/"><img src={Insta}  alt="" class="socials"/></a>
+                            <a href="https://twitter.com/KharthikDP"><img src={Twitter}  alt="" class="socials"/></a>
+                            <a href="https://www.facebook.com/insidekarthik"><img src={Facebook}  alt="" class="socials"/></a>
+                            <a href="mailto:kharthikpalanidp@gmail.com"><img src={Email}  alt="" class="socials"/></a>
                         </div>
                     </div>
                 </footer>
