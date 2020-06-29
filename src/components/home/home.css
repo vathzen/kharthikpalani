@@ -41,7 +41,7 @@
 
 .gallery-title{
   color: aliceblue;
-  font-size: 9vh;
+  font-size: 7vh;
   -webkit-text-stroke: 2px white;
   text-align: center;
   font-weight: 1000;
@@ -73,17 +73,17 @@
   height: 10px;
   border-radius: 50%;
   margin-top: 20px;
-  background-color: #303336;
+  background-color: whitesmoke;
   cursor: pointer;
   border-style: solid;
-  border-width: thin;
-  border-color: black;
+  border-width: 2px;
+  border-color: white;
   transition: background-color 0.1s linear, border-color 0.1s linear;
 }
 
 .dot:hover{
-  border-color: blue;
-  background-color: none;
+  border-color: white;
+  background-color: transparent;
 }
 
 .dot:hover + .hover-title{

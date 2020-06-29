@@ -65,7 +65,7 @@ class Home extends Component {
     render() {
         return (
             <>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik}></div>
+                <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik} data-bleed="300"></div>
                 <nav class="scroll-bar">
                     <a onClick={() => this.scrollToInfo()} id="nav-info">
                         <div class="dot"></div>
@@ -92,7 +92,7 @@ class Home extends Component {
                     <div class="container padding-top">
                         <Element name="info"></Element>
                         <h6 class="montserrat content">Kharthik Phalani is an Indian cinematographer who works in the Indian film industry. After completing his Under Graduation in Physics, He did Diploma in Film Technology (Cinematography) in FiIm & Television Institute of Tamilnadu, and started assisting Tirru from 2009.</h6>
-                        <h2 class="display-6 career montserrat font-var content-title">Career</h2>
+                        <h2 class="display-6 career montserrat content-title">CAREER</h2>
                         <h6 class="montserrat">
                             <p class="montserrat content">
                                 He completed Diploma in Film Technology (Cinematography) in FiIm & Television Institute of Tamilnadu and started assisting DOP Mr.Tirru in 2009. Assisting on more than 600 commercials there by collaborating with production houses in India such as Nirvana, Corcoise films, Bang Bang films, sunrise films, Hot films, Anonymous Films, Opticus Inc, soda films, Foot candle films, etc and brands like Center Fresh, Slice, Miranda, KFC Krushers, Tata Indicom, Hutch - Vodafone, Kalyan Jewellers, Prince Jewellers, sangam Suitings, GRT jewellers, Chennai silks, Manapuram Gold, Volini, Canon, Philips, etc.
@@ -106,27 +106,27 @@ class Home extends Component {
                         </h6>
                     </div>
                 </section>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={still1}></div>
+                <div class="parallax-container" data-parallax="scroll" data-image-src={still1} data-bleed="300"></div>
                 <section id="penguin">
                 <Element name="penguin"></Element>
                     <div class="container padding-top">
-                        <h2 class="display-6 montserrat font-var content-title">Penguin (2020)</h2>
+                        <h2 class="display-6 montserrat content-title">Penguin (2020)</h2>
                         <ReactPlayer url="https://www.youtube.com/watch?v=1Mwp1CfFV-k" />
                     </div>
                 </section>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={promo}></div>
+                <div class="parallax-container" data-parallax="scroll" data-image-src={promo} data-bleed="300"></div>
                 <section id="promo">
                     <Element name="promo"></Element>
                     <div class="container padding-top">
-                        <h2 class="display-6 montserrat font-var content-title">Promo</h2>
+                        <h2 class="display-6 montserrat content-title">PROMO</h2>
                         <div class="players">
                             <ReactPlayer url="https://vimeo.com/269800280" class="video" />
                             <ReactPlayer url="https://vimeo.com/265532251" class="video" />
                         </div>
                     </div>
                 </section>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={still3}>
-                    <p class="montserrat font-var gallery-title padding-top-gallery">Gallery</p>
+                <div class="parallax-container" data-parallax="scroll" data-image-src={still3} data-bleed="300">
+                    <p class="montserrat gallery-title padding-top-gallery">GALLERY</p>
                 </div>
                 <section id="gallery">
                 <Element name="gallery"></Element>
@@ -148,7 +148,7 @@ class Home extends Component {
                 <footer id="footer">
                     <div class="container padding-top">
                         <div class="row align-icons">
-                            <h2 class="display-6 montserrat font-var">Contact Me</h2>
+                            <h2 class="display-6 montserrat">Follow Me On:</h2>
                         </div>
                         <br/>
                         <div class="row align-icons">
