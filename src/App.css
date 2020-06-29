@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Acumen Pro";
+    src: url("./assets/fonts/acuminProWideLight.otf") format("opentype");
+}
+
 .montserrat{
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Acumen Pro',sans-serif;
 }
