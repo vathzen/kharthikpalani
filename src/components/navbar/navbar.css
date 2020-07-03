@@ -13,4 +13,9 @@
 .nav-link{
     font-size: 13px;
     cursor: pointer;
+    text-decoration: none !important;
+}
+
+.active{
+    text-decoration: none !important;
 }
