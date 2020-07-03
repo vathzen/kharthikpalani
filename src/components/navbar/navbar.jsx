@@ -29,7 +29,7 @@ class NavBar extends Component {
 
     render() {
         return (
-            <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black nav-height justify-content-center">
+            <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-black nav-height justify-content-center">
                 <NavLink className="navbar-brand d-flex w-50 mr-auto" to="/" id="navbar-brand"><img src={Logo} alt="" id="logo"></img></NavLink>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>

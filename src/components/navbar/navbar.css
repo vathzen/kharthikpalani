@@ -1,5 +1,5 @@
 .bg-black{
-    background-color: black;
+    background-color: white;
 }
 
 .nav-height{
@@ -18,4 +18,8 @@
 
 .active{
     text-decoration: none !important;
+}
+
+#logo{
+    filter: invert(1);
 }
