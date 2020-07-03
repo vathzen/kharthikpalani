@@ -65,6 +65,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <Element name="info"></Element>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik} data-bleed="300"></div>
                 <nav class="scroll-bar">
                     <a onClick={() => this.scrollToInfo()} id="nav-info">
@@ -90,7 +91,6 @@ class Home extends Component {
                 </nav>
                 <section id="info">
                     <div class="container padding-top">
-                        <Element name="info"></Element>
                         <h6 class="montserrat content">Kharthik Phalani is an Indian cinematographer who works in the Indian film industry. After completing his Under Graduation in Physics, He did Diploma in Film Technology (Cinematography) in FiIm & Television Institute of Tamilnadu, and started assisting Tirru from 2009.</h6>
                         <h2 class="display-6 career montserrat content-title">CAREER</h2>
                         <h6 class="montserrat">
@@ -106,17 +106,17 @@ class Home extends Component {
                         </h6>
                     </div>
                 </section>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={still1} data-bleed="300"></div>
-                <section id="penguin">
                 <Element name="penguin"></Element>
+                <div class="parallax-container" data-parallax="scroll" data-image-src={still1} data-bleed="300"></div>
+                <section id="penguin">          
                     <div class="container padding-top">
                         <h2 class="display-6 montserrat content-title">Penguin (2020)</h2>
                         <ReactPlayer url="https://www.youtube.com/watch?v=1Mwp1CfFV-k" />
                     </div>
                 </section>
+                <Element name="promo"></Element>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={promo} data-bleed="300"></div>
                 <section id="promo">
-                    <Element name="promo"></Element>
                     <div class="container padding-top">
                         <h2 class="display-6 montserrat content-title">PROMO</h2>
                         <div class="players">
@@ -125,11 +125,11 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
+                <Element name="gallery"></Element>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={still3} data-bleed="300">
                     <p class="montserrat gallery-title padding-top-gallery">GALLERY</p>
                 </div>
                 <section id="gallery">
-                <Element name="gallery"></Element>
                     <div class="container padding-top">
                         <div class="container">
                             <div class="col">
@@ -148,14 +148,17 @@ class Home extends Component {
                 <footer id="footer">
                     <div class="container padding-top">
                         <div class="row align-icons">
-                            <h2 class="display-6 montserrat">Follow Me On:</h2>
+                            <h2 class="display-6 montserrat">Connect With Me:</h2>
                         </div>
                         <br/>
                         <div class="row align-icons">
-                            <a href="https://www.instagram.com/kharthikdop/"><img src={Insta}  alt="" class="socials"/></a>
-                            <a href="https://twitter.com/KharthikDP"><img src={Twitter}  alt="" class="socials"/></a>
-                            <a href="https://www.facebook.com/insidekarthik"><img src={Facebook}  alt="" class="socials"/></a>
-                            <a href="mailto:kharthikpalanidp@gmail.com"><img src={Email}  alt="" class="socials"/></a>
+                            <a href="https://www.instagram.com/kharthikdop/" target="_blank" rel="noopener noreferrer"><img src={Insta}  alt="" class="socials"/></a>
+                            <a href="https://twitter.com/KharthikDP" target="_blank" rel="noopener noreferrer"><img src={Twitter}  alt="" class="socials"/></a>
+                            <a href="https://www.facebook.com/Karthikpalanidop" target="_blank" rel="noopener noreferrer"><img src={Facebook}  alt="" class="socials"/></a>
+                            <a href="mailto:kharthikpalanidp@gmail.com" target="_blank" rel="noopener noreferrer"><img src={Email}  alt="" class="socials"/></a>
+                        </div>
+                        <div class="row align-icons top-margin">
+                            <a href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @KharthikDP</a>
                         </div>
                     </div>
                 </footer>

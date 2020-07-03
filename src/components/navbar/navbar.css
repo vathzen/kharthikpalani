@@ -9,3 +9,8 @@
 .font-var{
     font-variant: small-caps;
 }
+
+.nav-link{
+    font-size: 13px;
+    cursor: pointer;
+}

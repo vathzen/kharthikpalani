@@ -7,6 +7,10 @@
   padding-top: 5vh;
 }
 
+.top-margin{
+  margin-top: 3vh;
+}
+
 .career{
   margin-top: 5vh;
 }
@@ -29,10 +33,10 @@
 }
 
 .thumbs{
-  height: 30vh;
+  height: 20vh;
   margin-top: 30px;
-  min-width: 40vh;
-  flex-basis: 45%;
+  min-width: 25vh;
+  flex-basis: 33%;
 }
 
 .align-icons{
