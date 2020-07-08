@@ -14,7 +14,6 @@ var s3 = new AWS.S3({
     params: {Bucket: 'kpweb'}
 });
 
-var photos = [];
 
 function constructUrl(arg){
     return 'https://kpweb.s3.ap-south-1.amazonaws.com/' + arg
@@ -22,17 +21,28 @@ function constructUrl(arg){
 
 class BTS extends Component{
 
+    constructor(props){
+        super(props);
+        this.state = {
+            photos : []
+        }
+    }
+
+    handleData = (err,data) => {
+        if(err){
+            console.log(err)
+        }
+        else{
+            let newPhotos = [];
+            for (let index = 0; index < data.Contents.length; index++) {
+                newPhotos.push({'src':constructUrl(data.Contents[index].Key),'width':4,'height':3});
+            }
+            this.setState({photos:newPhotos});
+        }
+    }
+
     componentDidMount(){
-        s3.listObjects({Delimiter:'/'}, function(err,data){
-            if(err){
-                console.log(err)
-            }
-            else{
-                for (let index = 0; index < data.Contents.length; index++) {
-                    photos.push({'src':constructUrl(data.Contents[index].Key),'width':2,'height':2});
-                }
-            }
-        });
+        s3.listObjects({Delimiter:'/'}, this.handleData);
     }
 
     render(){
@@ -40,7 +50,7 @@ class BTS extends Component{
             <div id="bts-page">
                 <div class="container padding-top">
                     <div class="row montserrat content-title font-white d-flex justify-content-center margin-bottom">BEHIND THE SCENES</div>
-                    <Gallery photos={photos} />
+                    <Gallery photos={this.state.photos} />
                 </div>
             </div>
         )
