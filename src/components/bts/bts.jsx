@@ -11,7 +11,7 @@ class BTS extends Component{
                         <h1 class="display-4 montserrat content-title">Behind the Scenes</h1>
                     </div>
                     <div class="row">
-                        ksajshfnjksafjkasfjksfaskfskfklsflksfnsjkfnskjfnsjkflsnfdiaskgnasfljh kj,m f nikjnsfksjf f hs,fsiufkj nsifuskjh nfsukjf sn,ukhf nsfsajkf 
+                        
                     </div>
                 </div>
             </>

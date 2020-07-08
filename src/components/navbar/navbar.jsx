@@ -27,6 +27,10 @@ class NavBar extends Component {
         animateScroll.scrollToBottom()
     }
 
+    toBTS = () => {
+        
+    }
+
     render() {
         return (
             <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black nav-height justify-content-center">
@@ -37,16 +41,16 @@ class NavBar extends Component {
                 <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
                     <ul class="navbar-nav w-100 justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link montserrat" onClick={() => this.scrollToInfo()}>ABOUT</a>
+                            <NavLink to="/" className="nav-link montserrat" onClick={() => this.scrollToInfo()}>ABOUT</NavLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link montserrat" onClick={() => this.scrollToPenguin()}>WORK</a>
+                            <NavLink to="/" className="nav-link montserrat" onClick={() => this.scrollToPenguin()}>WORK</NavLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link montserrat" href="/bts">BTS</a>
+                            <NavLink to="/bts" className="nav-link montserrat active">BTS</NavLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link montserrat" onClick={() => this.scrollToContact()}>CONTACT</a>
+                            <NavLink to="/" className="nav-link montserrat" onClick={() => this.scrollToContact()}>CONTACT</NavLink>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
