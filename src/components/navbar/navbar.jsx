@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 import Logo from '../../assets/img/logo.png'
@@ -27,35 +27,29 @@ class NavBar extends Component {
         animateScroll.scrollToBottom()
     }
 
-    toBTS = () => {
-        
-    }
-
     render() {
         return (
-            <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black nav-height justify-content-center">
-                <NavLink className="navbar-brand d-flex w-50 mr-auto" to="/" id="navbar-brand"><img src={Logo} alt="" id="logo"></img></NavLink>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <nav class="navbar navbar-dark sticky-top bg-black nav-height">
+                <Link className="navbar-brand" to="/" id="navbar-brand"><img src={Logo} alt="" id="logo"></img></Link>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
-                    <ul class="navbar-nav w-100 justify-content-center">
+                <div className="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <NavLink to="/" className="nav-link montserrat" onClick={() => this.scrollToInfo()}>ABOUT</NavLink>
+                            <Link to="/" className="nav-link montserrat" onClick={() => this.scrollToInfo()}>ABOUT</Link>
                         </li>
                         <li class="nav-item">
-                            <NavLink to="/" className="nav-link montserrat" onClick={() => this.scrollToPenguin()}>WORK</NavLink>
+                            <Link to="/" className="nav-link montserrat" onClick={() => this.scrollToPenguin()}>WORK</Link>
                         </li>
                         <li class="nav-item">
-                            <NavLink to="/bts" className="nav-link montserrat active">BTS</NavLink>
+                            <Link to="/bts" className="nav-link montserrat">BEHIND THE SCENES</Link>
                         </li>
                         <li class="nav-item">
-                            <NavLink to="/" className="nav-link montserrat" onClick={() => this.scrollToContact()}>CONTACT</NavLink>
+                            <Link to="/press" className="nav-link montserrat">PRESS</Link>
                         </li>
-                    </ul>
-                    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                        <li class="nav-item text-center" id="product-btn">
-                            <a className="nav-link montserrat active"><span class="font-var">Director of Photography</span></a>
+                        <li class="nav-item">
+                            <Link to="/" className="nav-link montserrat" onClick={() => this.scrollToContact()}>CONTACT</Link>
                         </li>
                     </ul>
                 </div>

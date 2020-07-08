@@ -67,7 +67,7 @@ class Home extends Component {
             <>
                 <Element name="info"></Element>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik} data-bleed="300"></div>
-                <nav class="scroll-bar">
+                <div class="scroll-bar">
                     <a onClick={() => this.scrollToInfo()} id="nav-info">
                         <div class="dot"></div>
                         <span class="hover-title">Kharthik Palani</span>
@@ -88,7 +88,7 @@ class Home extends Component {
                         <div class="dot"></div>
                         <span class="hover-title">Contact Me</span>
                     </a>
-                </nav>
+                </div>
                 <section id="info">
                     <div class="container padding-top">
                         <h6 class="montserrat content">Kharthik Phalani is an Indian cinematographer who works in the Indian film industry. After completing his Under Graduation in Physics, He did Diploma in Film Technology (Cinematography) in FiIm & Television Institute of Tamilnadu, and started assisting Tirru from 2009.</h6>
@@ -111,7 +111,7 @@ class Home extends Component {
                 <section id="penguin">          
                     <div class="container padding-top">
                         <h2 class="display-6 montserrat content-title">Penguin (2020)</h2>
-                        <ReactPlayer url="https://www.youtube.com/watch?v=1Mwp1CfFV-k" />
+                        <ReactPlayer url="https://www.youtube.com/watch?v=1Mwp1CfFV-k" width="100%"/>
                     </div>
                 </section>
                 <Element name="promo"></Element>
@@ -162,7 +162,6 @@ class Home extends Component {
                         </div>
                     </div>
                 </footer>
-
             </>
         );
     }

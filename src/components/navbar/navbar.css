@@ -3,7 +3,7 @@
 }
 
 .nav-height{
-    height: 15vh;
+    min-height: 15vh;
 }
 
 .font-var{
