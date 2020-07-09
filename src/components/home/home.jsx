@@ -58,7 +58,7 @@ class Home extends Component {
         return (
             <>
                 <Element name="info"></Element>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik} data-bleed="300"></div>
+                <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik} data-bleed="100"></div>
                 <div class="scroll-bar">
                     <a onClick={() => this.scrollToInfo()} id="nav-info">
                         <div class="dot"></div>
