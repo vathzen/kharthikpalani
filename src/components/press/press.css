@@ -5,6 +5,7 @@
 
 .news-title{
     font-size: medium;
+    text-decoration: none !important;
     margin-top: 2vh;
 }
 

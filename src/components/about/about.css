@@ -1,7 +1,12 @@
 #about-page{
     background-color: #0f0f0f;
+    height: 80vh;
 }
 
 .pad-top{
     padding-top: 1vh;
+}
+
+.pad-bottom{
+    padding-bottom: 2vh;
 }
