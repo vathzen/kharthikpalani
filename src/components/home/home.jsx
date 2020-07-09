@@ -111,7 +111,7 @@ class Home extends Component {
                 <div class="parallax-container" data-parallax="scroll" data-image-src={promo} data-bleed="300"></div>
                 <section id="promo">
                     <div class="container padding-top">
-                        <h2 class="display-6 montserrat content-title">PROMO</h2>
+                        <h2 class="display-6 montserrat content-title text-center">PROMO</h2>
                         <div class="players">
                             <ReactPlayer url="https://vimeo.com/269800280" class="video" />
                             <ReactPlayer url="https://vimeo.com/265532251" class="video" />
@@ -119,17 +119,15 @@ class Home extends Component {
                     </div>
                 </section>
                 <Element name="gallery"></Element>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={still3} data-bleed="300">
-                    <p class="montserrat gallery-title padding-top-gallery">GALLERY</p>
-                </div>
                 <section id="gallery">
-                    <div class="container padding-top">
+                    <div class="container">
+                        <p class="montserrat gallery-title">GALLERY</p>
                         <div class="container">
                             <div class="col">
                                 <div class="gallery container-fluid">
-                                    <img src={Image1} alt="" class="thumbs" width="40%"/>
-                                    <img src={Image2} alt="" class="thumbs" width="40%"/>
-                                    <img src={Image3} alt="" class="thumbs" width="40%"/>
+                                    <img src={Image1} alt="" class="thumbs" width="50vw"/>
+                                    <img src={Image2} alt="" class="thumbs" width="50vw"/>
+                                    <img src={Image3} alt="" class="thumbs" width="50vw"/>
                                 </div>
                             </div>
                         </div>

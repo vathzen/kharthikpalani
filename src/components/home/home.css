@@ -33,16 +33,16 @@
 }
 
 .thumbs{
-  margin-top: 30px;
+  margin-top: 2vh;
   flex-basis: 33%;
+  padding-right: 1vw;
+  padding-left: 1vw ;
 }
 
 .gallery-title{
   color: aliceblue;
-  font-size: 7vh;
-  -webkit-text-stroke: 2px white;
+  font-size: 20px;
   text-align: center;
-  font-weight: 1000;
 }
 
 .padding-top-gallery{
@@ -54,7 +54,7 @@
   font-size: 11px;
 }
 .content-title{
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .scroll-bar{
@@ -116,7 +116,7 @@
 #promo{
   background-color: black;
   color: aliceblue;
-  padding-bottom: 5vh;
+  padding-bottom: 2vh;
 }
 
 #gallery{
