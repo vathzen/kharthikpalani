@@ -5,6 +5,7 @@ import './App.css';
 
 import Routes from './components/routes/routes'
 import NavBar from './components/navbar/navbar'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="*">
         <NavBar></NavBar>
         <Routes></Routes>
+        <Footer></Footer>
       </Route>
     </BrowserRouter>    
   );

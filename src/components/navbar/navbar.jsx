@@ -35,20 +35,23 @@ class NavBar extends Component {
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navLinks">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <Link to="/" className="nav-link montserrat" onClick={() => this.scrollToInfo()}>ABOUT</Link>
+                    <ul class="navbar-nav w-100">
+                        <li class="nav-item ml-auto">
+                            <Link to="/about" className="nav-link montserrat">ABOUT</Link>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
                             <Link to="/" className="nav-link montserrat" onClick={() => this.scrollToPenguin()}>WORK</Link>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
                             <Link to="/bts" className="nav-link montserrat">BEHIND THE SCENES</Link>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
                             <Link to="/press" className="nav-link montserrat">PRESS</Link>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-auto">
+                            <Link to="/social" className="nav-link montserrat">SOCIAL</Link>
+                        </li>
+                        <li class="nav-item ml-auto">
                             <Link to="/" className="nav-link montserrat" onClick={() => this.scrollToContact()}>CONTACT</Link>
                         </li>
                     </ul>

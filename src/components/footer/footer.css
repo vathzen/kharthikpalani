@@ -1,0 +1,23 @@
+footer{
+    background-color: #303336;
+    color: aliceblue;
+    padding-bottom: 5vh;
+}
+
+.row-bottom{
+    padding-bottom: 1vh;
+}
+
+.row-top{
+    padding-top: 1vh;
+}
+
+.align-icons{
+    justify-content: center;
+}
+  
+.socials{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+}

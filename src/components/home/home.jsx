@@ -11,13 +11,6 @@ import still3 from '../../assets/img/still2.jpg'
 import Image1 from '../../assets/img/gallery/image1.jpg'
 import Image2 from '../../assets/img/gallery/image2.jpg'
 import Image3 from '../../assets/img/gallery/image3.jpg'
-import Image4 from '../../assets/img/gallery/image4.jpg'
-import Image5 from '../../assets/img/gallery/image5.jpg'
-import Image6 from '../../assets/img/gallery/image6.jpg'
-import Insta from '../../assets/img/insta.png'
-import Twitter from '../../assets/img/twitter.png'
-import Facebook from '../../assets/img/facebook.png'
-import Email from '../../assets/img/email.png'
 
 class Home extends Component {
 
@@ -133,35 +126,16 @@ class Home extends Component {
                     <div class="container padding-top">
                         <div class="container">
                             <div class="col">
-                                <div class="gallery">
-                                    <img src={Image1} alt="" class="thumbs" />
-                                    <img src={Image2} alt="" class="thumbs" />
-                                    <img src={Image3} alt="" class="thumbs" />
-                                    <img src={Image4} alt="" class="thumbs" />
-                                    <img src={Image5} alt="" class="thumbs" />
-                                    <img src={Image6} alt="" class="thumbs" />
+                                <div class="gallery container-fluid">
+                                    <img src={Image1} alt="" class="thumbs" width="40%"/>
+                                    <img src={Image2} alt="" class="thumbs" width="40%"/>
+                                    <img src={Image3} alt="" class="thumbs" width="40%"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <footer id="footer">
-                    <div class="container padding-top">
-                        <div class="row align-icons">
-                            <h2 class="display-6 montserrat">Connect With Me:</h2>
-                        </div>
-                        <br/>
-                        <div class="row align-icons">
-                            <a href="https://www.instagram.com/kharthikdop/" target="_blank" rel="noopener noreferrer"><img src={Insta}  alt="" class="socials"/></a>
-                            <a href="https://twitter.com/KharthikDP" target="_blank" rel="noopener noreferrer"><img src={Twitter}  alt="" class="socials"/></a>
-                            <a href="https://www.facebook.com/Karthikpalanidop" target="_blank" rel="noopener noreferrer"><img src={Facebook}  alt="" class="socials"/></a>
-                            <a href="mailto:kharthikpalanidp@gmail.com" target="_blank" rel="noopener noreferrer"><img src={Email}  alt="" class="socials"/></a>
-                        </div>
-                        <div class="row align-icons top-margin">
-                            <a href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @KharthikDP</a>
-                        </div>
-                    </div>
-                </footer>
+                
             </>
         );
     }

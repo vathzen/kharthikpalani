@@ -8,8 +8,20 @@
     margin-top: 2vh;
 }
 
+.font-small{
+    font-size: 11px;
+}
+
+.container-margin{
+    width: 90vw;
+}
+
 .font-white{
     color: whitesmoke;
+}
+
+.center-col{
+    align-items: center !important;
 }
 
 .margin-bottom{
