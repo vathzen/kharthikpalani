@@ -26,7 +26,7 @@ class NavBar extends Component {
                                 <Link to="/social" className="nav-link montserrat">SOCIAL</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to="/" className="nav-link montserrat">CONTACT</Link>
+                                <Link to="/contact" className="nav-link montserrat">CONTACT</Link>
                             </li>
                         </ul>
                     </div>

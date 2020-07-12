@@ -1,0 +1,22 @@
+#outer-contact{
+    height: 80vh;
+    background-color: #0f0f0f;
+}
+
+.padding-top-2{
+    padding-top: 10vh;
+}
+
+.italics{
+    font-style: italic;
+}
+
+input , textarea{
+    background-color: #2f2f2f !important;
+    border-color: #1f1f1f !important;
+    color: white !important;
+}
+
+input:focus , textarea:focus{
+    border-color: white !important;
+}
