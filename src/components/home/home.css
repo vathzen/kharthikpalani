@@ -1,53 +1,16 @@
 .parallax-container {
-    height: 80vh;
-    background: transparent;
-  }
+  height: 60vh;
+}
+
+.title-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
 .padding-top{
   padding-top: 5vh;
-}
-
-.top-margin{
-  margin-top: 3vh;
-}
-
-.career{
-  margin-top: 5vh;
-}
-
-.players{
-  display: flex;
-  flex-direction: row;
-}
-
-.video{
-  margin-right: 50px;
-}
-
-.gallery{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-bottom: 30px;
-}
-
-.thumbs{
-  margin-top: 2vh;
-  flex-basis: 33%;
-  padding-right: 1vw;
-  padding-left: 1vw ;
-}
-
-.gallery-title{
-  color: aliceblue;
-  font-size: 20px;
-  text-align: center;
-}
-
-.padding-top-gallery{
-  position: relative;
-  top: 60%;
 }
 
 .content{
@@ -57,69 +20,10 @@
   font-size: 20px;
 }
 
-.scroll-bar{
-  position: fixed;
-  z-index: 69;
-  top: 50%;
-  right: 15px;
-  transition: opacity .3s 0s linear;
-  transform: translate3d(0,-50%,0);
+.text-dec{
+  text-decoration: none !important;
 }
 
-.dot{
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-top: 20px;
-  background-color: whitesmoke;
-  cursor: pointer;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  transition: background-color 0.1s linear, border-color 0.1s linear;
-}
-
-.dot:hover{
-  border-color: white;
-  background-color: transparent;
-}
-
-.dot:hover + .hover-title{
-  opacity: 1;
-}
-
-
-.hover-title{
-  position: absolute;
-  right: 10px;
-  color: aliceblue;
-  white-space: nowrap;
-  margin-right: 15px;
-  opacity: 0;
-  margin-top: -15px;
-  transition: all .3s cubic-bezier(.23,1,.32,1);
-}
-
-#info{
-  background-color: black;
-  color: aliceblue;
-  text-align: justify;
-  padding-bottom: 5vh;
-}
-
-#penguin{
-  background-color: black;
-  color: aliceblue;
-  padding-bottom: 5vh;
-}
-
-#promo{
-  background-color: black;
-  color: aliceblue;
-  padding-bottom: 2vh;
-}
-
-#gallery{
-  background-color: black;
-  color: aliceblue;
+.text-dec:hover{
+  color: #cfcfcf !important;
 }

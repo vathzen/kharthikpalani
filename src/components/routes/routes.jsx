@@ -8,6 +8,9 @@ import Social from '../social/social';
 import About from '../about/about';
 import Contact from '../contact/contact';
 
+import Penguin from '../home/projects/penguin/penguin';
+import Promo from '../home/projects/promo/promo'
+
 import Dinamani from '../press/articles/dinamani';
 import Vikatan from '../press/articles/vikatan';
 import CExpress from '../press/articles/cexpress';
@@ -21,6 +24,9 @@ export default function Routes(){
             <Route exact path='/about' component = {About} />
             <Route exact path='/social' component = {Social} />
             <Route exact path='/contact' component = {Contact} />
+
+            <Route exact path='/penguin' component = {Penguin} />
+            <Route exact path='/promo' component = {Promo} />
 
             <Route exact path='/press/dinamani-article' component = {Dinamani} />
             <Route exact path='/press/vikatan-article' component = {Vikatan} />
