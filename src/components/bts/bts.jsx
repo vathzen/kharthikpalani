@@ -48,9 +48,9 @@ class BTS extends Component{
     render(){
         return(
             <div id="bts-page">
-                <div class="container padding-top">
+                <div class="container padding-top" id="photo-grid">
                     <div class="row montserrat content-title font-white d-flex justify-content-center margin-bottom">BEHIND THE SCENES</div>
-                    <Gallery photos={this.state.photos} />
+                    <Gallery photos={this.state.photos}/>
                 </div>
             </div>
         )

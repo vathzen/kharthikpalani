@@ -14,7 +14,7 @@ class About extends Component{
                         <div class="col d-flex flex-column align-items-center">
                             <img src={Still} alt="" width="80%"/>
                         </div>
-                        <div class="col montserrat content font-white my-auto">
+                        <div class="col montserrat content font-white">
                             <p>Kharthik Phalani is an Indian cinematographer who works in the Indian film industry. After completing his Under Graduation in Physics, He did Diploma in Film Technology (Cinematography) in Film & Television Institute of Tamilnadu, and started assisting Tirru from 2009.</p>
                             <br/>
                             <p>He completed Diploma in Film Technology (Cinematography) in FiIm & Television Institute of Tamilnadu and started assisting DOP Mr.Tirru in 2009. Assisting on more than 600 commercials there by collaborating with production houses in India such as Nirvana, Corcoise films, Bang Bang films, sunrise films, Hot films, Anonymous Films, Opticus Inc, soda films, Foot candle films, etc and brands like Center Fresh, Slice, Miranda, KFC Krushers, Tata Indicom, Hutch - Vodafone, Kalyan Jewellers, Prince Jewellers, sangam Suitings, GRT jewellers, Chennai silks, Manapuram Gold, Volini, Canon, Philips, etc.</p>

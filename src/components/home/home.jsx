@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
-import { Element,scroller,animateScroll } from 'react-scroll'
 
 import './home.css'
 
@@ -12,75 +11,10 @@ import Image2 from '../../assets/img/gallery/image2.jpg'
 import Image3 from '../../assets/img/gallery/image3.jpg'
 
 class Home extends Component {
-
-    scrollToInfo = () => {
-        scroller.scrollTo('info',{
-            duration: 800,
-            delay: 100,
-            offset: -300,
-            smooth: 'easeInOutQuart'
-        })
-    }
-
-    scrollToPenguin = () => {
-        scroller.scrollTo('penguin',{
-            duration: 800,
-            delay: 100,
-            offset: -200,
-            smooth: 'easeInOutQuart'
-        })
-    }
-
-    scrollToPromo = () => {
-        scroller.scrollTo('promo',{
-            duration: 800,
-            delay: 100,
-            offset: -200,
-            smooth: 'easeInOutQuart'
-        })
-    }
-
-    scrollToGallery = () => {
-        scroller.scrollTo('gallery',{
-            duration: 800,
-            delay: 100,
-            offset: -200,
-            smooth: 'easeInOutQuart'
-        })
-    }
-
-    scrollToContact = () => {
-        animateScroll.scrollToBottom()
-    }
-
-
     render() {
         return (
             <>
-                <Element name="info"></Element>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik} data-bleed="100"></div>
-                <div class="scroll-bar">
-                    <a onClick={() => this.scrollToInfo()} id="nav-info">
-                        <div class="dot"></div>
-                        <span class="hover-title">Kharthik Palani</span>
-                    </a>
-                    <a onClick={() => this.scrollToPenguin()}id="nav-penguin">
-                        <div class="dot"></div>
-                        <span class="hover-title">Penguin</span>
-                    </a>
-                    <a onClick={() => this.scrollToPromo()}id="nav-promo">
-                        <div class="dot"></div>
-                        <span class="hover-title">Promo</span>
-                    </a>
-                    <a onClick={() => this.scrollToGallery()}id="nav-gallery">
-                        <div class="dot"></div>
-                        <span class="hover-title">Gallery</span>
-                    </a>
-                    <a onClick={() => this.scrollToContact()}id="nav-contact">
-                        <div class="dot"></div>
-                        <span class="hover-title">Contact Me</span>
-                    </a>
-                </div>
                 <section id="info">
                     <div class="container padding-top">
                         <h6 class="montserrat content">Kharthik Phalani is an Indian cinematographer who works in the Indian film industry. After completing his Under Graduation in Physics, He did Diploma in Film Technology (Cinematography) in FiIm & Television Institute of Tamilnadu, and started assisting Tirru from 2009.</h6>
@@ -98,7 +32,6 @@ class Home extends Component {
                         </h6>
                     </div>
                 </section>
-                <Element name="penguin"></Element>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={still1} data-bleed="300"></div>
                 <section id="penguin">          
                     <div class="container padding-top">
@@ -106,7 +39,6 @@ class Home extends Component {
                         <ReactPlayer url="https://www.youtube.com/watch?v=1Mwp1CfFV-k" width="100%"/>
                     </div>
                 </section>
-                <Element name="promo"></Element>
                 <div class="parallax-container" data-parallax="scroll" data-image-src={promo} data-bleed="300"></div>
                 <section id="promo">
                     <div class="container padding-top">
@@ -117,7 +49,6 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <Element name="gallery"></Element>
                 <section id="gallery">
                     <div class="container">
                         <p class="montserrat gallery-title">GALLERY</p>
