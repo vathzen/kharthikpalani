@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 
 import './footer.css'
 
@@ -12,7 +13,19 @@ class Footer extends Component {
         return (
             <footer id="footer">
                 <div class="container">
-                    <div class="row">
+                    <div class="row montserrat font-white d-flex justify-content-center padding-top">
+                        <Link to='/' class="text-dec font-white">KHARTHIK PALANI</Link>
+                    </div>
+                    <div class="row montserrat content font-white d-flex justify-content-center padding-top">
+                        <Link to='/penguin' class="text-dec font-white  padding-footer-links">PENGUIN</Link>
+                        <Link to='/promo' class="text-dec font-white  padding-footer-links">PROMO</Link>
+                        <Link to='/about' class="text-dec font-white  padding-footer-links">ABOUT</Link>
+                        <Link to='/bts' class="text-dec font-white  padding-footer-links">BTS</Link>
+                        <Link to='/press' class="text-dec font-white  padding-footer-links">PRESS</Link>
+                        <Link to='/social' class="text-dec font-white  padding-footer-links">SOCIAL</Link>
+                        <Link to='/contact' class="text-dec font-white  padding-footer-links">CONTACT</Link>
+                    </div>
+                    <div class="row padding-top">
                         <div class="col-6 d-flex flex-column align-items-start">
                             <div class="row align-icons row-bottom">
                                 <h2 class="display-6 montserrat content social-tag">SOCIAL : </h2>
@@ -27,6 +40,9 @@ class Footer extends Component {
                                 <a href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @KharthikDP</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </div>
                         </div>
+                    </div>
+                    <div class="row padding-top font-white montserrat d-flex justify-content-center padding-bottom">
+                        &copy;2020 / All Rights Reserved
                     </div>
                 </div>
                 {/* <div class="container">

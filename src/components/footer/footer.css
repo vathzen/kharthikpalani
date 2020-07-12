@@ -1,7 +1,12 @@
 footer{
-    background-color: #303336;
+    background-color: #0f0f0f;
     color: aliceblue;
     padding-top: 2vh;
+}
+
+.padding-footer-links{
+    padding-right: 1vw;
+    padding-left: 1vw;
 }
 
 .row-bottom{
