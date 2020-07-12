@@ -8,7 +8,7 @@ class About extends Component{
     render(){
         return(
             <div id="about-page">
-                <div class="container pad-bottom">
+                <div class="container pad-bottom padding-top">
                     <div class="row montserrat content-title font-white d-flex justify-content-center margin-bottom pad-top">ABOUT</div>
                     <div class="row">
                         <div class="col d-flex flex-column align-items-center">
