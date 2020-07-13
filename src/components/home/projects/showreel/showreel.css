@@ -1,0 +1,9 @@
+#showreel-outer{
+    height: 100vh;
+    background-color: #0f0f0f;
+}
+
+.video-container{
+    height: 100%;
+    width: 100%;
+}

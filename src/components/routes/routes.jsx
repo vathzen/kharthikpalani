@@ -10,6 +10,7 @@ import Contact from '../contact/contact';
 
 import Penguin from '../home/projects/penguin/penguin';
 import Promo from '../home/projects/promo/promo'
+import Showreel from '../home/projects/showreel/showreel';
 
 import Dinamani from '../press/articles/dinamani';
 import Vikatan from '../press/articles/vikatan';
@@ -27,6 +28,7 @@ export default function Routes(){
 
             <Route exact path='/penguin' component = {Penguin} />
             <Route exact path='/promo' component = {Promo} />
+            <Route exact path='/showreel' component = {Showreel} />
 
             <Route exact path='/press/dinamani-article' component = {Dinamani} />
             <Route exact path='/press/vikatan-article' component = {Vikatan} />

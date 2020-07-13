@@ -3,35 +3,67 @@ import { Link } from 'react-router-dom'
 
 import './home.css'
 
-import kharthik from '../../assets/img/karthik.jpg'
+import { ParallaxBanner} from 'react-scroll-parallax'
+
+import Showreel from '../../assets/video/showreel.mp4'
 import still1 from '../../assets/img/still1.jpg'
 import promo from '../../assets/img/promo.png'
+import Poster from '../../assets/img/poster.png'
 
 class Home extends Component {
     render() {
         return (
             <>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={kharthik}>
+                <ParallaxBanner
+                    className="parallax-div"
+                    layers={[
+                        {
+                            children: (
+                                <video className="showreel-video" autoPlay loop playsInline muted preload="auto" poster={Poster} src={Showreel} />
+                            ),
+                            amount: 0.25,
+                        },
+                    ]}
+                    style={{
+                        height: '80vh',
+                    }}
+                >
                     <div class="title-container">
-                        <div class="font-white content-title montserrat">
-                            WATCH SHOWREEL
-                        </div>
+                    <Link to='/showreel' class="font-white content-title montserrat text-dec">WATCH SHOWREEL</Link>
                     </div>
-                </div>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={still1}>
+                </ParallaxBanner>
+                <ParallaxBanner
+                    className="parallax-div"
+                    layers={[
+                        {
+                            image: still1,
+                            amount: 0.2,
+                        },
+                    ]}
+                    style={{
+                        height: '80vh',
+                    }}
+                >
                     <div class="title-container">
-                        <div>
                             <Link to='/penguin' class="font-white content-title montserrat text-dec">PENGUIN</Link>
-                        </div>
                     </div>
-                </div>
-                <div class="parallax-container" data-parallax="scroll" data-image-src={promo}>
+                </ParallaxBanner>
+                <ParallaxBanner
+                    className="parallax-div"
+                    layers={[
+                        {
+                            image: promo,
+                            amount: 0.2,
+                        },
+                    ]}
+                    style={{
+                        height: '80vh',
+                    }}
+                >
                     <div class="title-container">
-                        <div>
                             <Link to='/promo' class="font-white content-title montserrat text-dec">PROMO</Link>
-                        </div>
                     </div>
-                </div>
+                </ParallaxBanner>
             </>
         );
     }

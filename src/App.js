@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
-
+import {ParallaxProvider} from 'react-scroll-parallax'
 import './App.css';
 
 import Routes from './components/routes/routes'
@@ -12,7 +12,10 @@ function App() {
     <BrowserRouter>
       <Route path="*">
         <NavBar></NavBar>
+        <ParallaxProvider>
         <Routes></Routes>
+        </ParallaxProvider>
+ 
         <Footer></Footer>
       </Route>
     </BrowserRouter>    

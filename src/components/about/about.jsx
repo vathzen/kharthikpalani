@@ -9,7 +9,6 @@ class About extends Component{
         return(
             <div id="about-page">
                 <div class="container pad-bottom padding-top">
-                    <div class="row montserrat content-title  d-flex justify-content-center margin-bottom pad-top">ABOUT</div>
                     <div class="row">
                         <div class="col d-flex flex-column align-items-center">
                             <img src={Still} alt="" width="80%"/>

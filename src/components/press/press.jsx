@@ -12,7 +12,6 @@ class Press extends Component {
         return (
             <div id="outer">
                 <div class="container-fluid padding-top container-margin">
-                    <div class="row montserrat content-title  d-flex justify-content-center margin-bottom">PRESS</div>
                     <div class="row">
                         <div class="col-4  d-flex flex-column align-items-start">
                             <Link to="/press/cexpress-article"><img src={CE} alt="" width="100%" /></Link>
