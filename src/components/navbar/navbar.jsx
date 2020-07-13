@@ -5,7 +5,7 @@ import './navbar.css';
 class NavBar extends Component {
     render() {
         return (
-            <nav class="navbar navbar-dark navbar-expand-lg bg-black nav-height">
+            <nav class="navbar navbar-light navbar-expand-lg bg-white nav-height">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks">
                     <span class="navbar-toggler-icon"></span>
                 </button>

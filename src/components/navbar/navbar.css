@@ -1,9 +1,11 @@
-.bg-black{
-    background-color: black;
+.bg-white{
+    background-color: white;
 }
 
 .nav-height{
-    min-height: 15vh;
+    min-height: 23vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .nav-link{

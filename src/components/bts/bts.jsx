@@ -49,7 +49,7 @@ class BTS extends Component{
         return(
             <div id="bts-page">
                 <div class="container padding-top" id="photo-grid">
-                    <div class="row montserrat content-title font-white d-flex justify-content-center margin-bottom">BEHIND THE SCENES</div>
+                    <div class="row montserrat content-title d-flex justify-content-center margin-bottom">BEHIND THE SCENES</div>
                     <Gallery photos={this.state.photos}/>
                 </div>
             </div>

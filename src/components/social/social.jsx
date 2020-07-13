@@ -8,10 +8,10 @@ class Social extends Component {
             <>
                 <div id="social-page">
                     <div class="container padding-top">
-                        <div class="row montserrat content-title font-white d-flex justify-content-center margin-bottom">SOCIAL</div>
+                        <div class="row montserrat content-title  d-flex justify-content-center margin-bottom">SOCIAL</div>
                         <div class="row">
                             <div class="col-6">
-                                <a class="twitter-timeline" data-width="640" data-height="960" data-dnt="true" data-theme="dark" href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw">Tweets by KharthikDP</a>
+                                <a class="twitter-timeline" data-width="640" data-height="960" data-dnt="true" data-theme="light" href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw">Tweets by KharthikDP</a>
                             </div>
                             <div class="col-6">
                                 <div class="fb-page" data-href="https://www.facebook.com/Karthikpalanidop" data-tabs="timeline" data-width="600px" data-height="900px" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
