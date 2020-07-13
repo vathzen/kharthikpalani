@@ -36,3 +36,14 @@ footer{
 .copyright{
     font-size: 9px;
 }
+
+.author a{
+    padding-top: 1vh;
+    font-size: 9px;
+    color: #3f3f3f;
+}
+
+.author a:hover{
+    color: #2f2f2f;
+    text-decoration: none;
+}

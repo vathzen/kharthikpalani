@@ -21,7 +21,7 @@ class Home extends Component {
                             children: (
                                 <video className="showreel-video" autoPlay loop playsInline muted preload="auto" poster={Poster} src={Showreel} />
                             ),
-                            amount: 0.25,
+                            amount: 0.2,
                         },
                     ]}
                     style={{
@@ -61,7 +61,7 @@ class Home extends Component {
                     }}
                 >
                     <div class="title-container">
-                            <Link to='/promo' class="font-white content-title montserrat text-dec">PROMO</Link>
+                            <Link to='/other-films-tv' class="font-white content-title montserrat text-dec">OTHER FILM & TV PROJECTS</Link>
                     </div>
                 </ParallaxBanner>
             </>

@@ -2,18 +2,18 @@ import React , { Component } from 'react'
 import ReactPlayer from 'react-player/vimeo'
 
 
-import './promo.css'
+import './otherftv.css'
 
-class Promo extends Component{
+class OtherFilmsTV extends Component{
     render(){
         return(
             <>
                 <div id="promo-outer">
                 <div class="container-fluid padding-top-2">
-                    <div class="row content-title font-white montserrat justify-content-center">
+                    <div class="row content-title  montserrat justify-content-center">
                         Promotions and Advertisements
                     </div>
-                    <div class="row content font-white montserrat justify-content-center">
+                    <div class="row content  montserrat justify-content-center">
                         Various Adverts
                     </div>
                     <div class="row d-flex justify-content-center padding-top">
@@ -42,4 +42,4 @@ class Promo extends Component{
     }
 }
 
-export default Promo;
+export default OtherFilmsTV;

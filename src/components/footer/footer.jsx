@@ -16,12 +16,12 @@ class Footer extends Component {
                         <Link to='/' class="text-dec font-white">KHARTHIK PALANI</Link>
                     </div>
                     <div class="row montserrat content font-white d-flex justify-content-center padding-top">
+                        <Link to='/showreel' class="text-dec font-white  padding-footer-links">SHOWREEL</Link>
                         <Link to='/penguin' class="text-dec font-white  padding-footer-links">PENGUIN</Link>
-                        <Link to='/promo' class="text-dec font-white  padding-footer-links">PROMO</Link>
+                        <Link to='/other-films-tv' class="text-dec font-white  padding-footer-links">OTHER FILMS & TV</Link>
                         <Link to='/about' class="text-dec font-white  padding-footer-links">ABOUT</Link>
                         <Link to='/bts' class="text-dec font-white  padding-footer-links">BTS</Link>
                         <Link to='/press' class="text-dec font-white  padding-footer-links">PRESS</Link>
-                        <Link to='/social' class="text-dec font-white  padding-footer-links">SOCIAL</Link>
                         <Link to='/contact' class="text-dec font-white  padding-footer-links">CONTACT</Link>
                     </div>
                     <div class="row padding-top d-flex justify-content-center">
@@ -33,8 +33,11 @@ class Footer extends Component {
                     <div class="row align-icons padding-top">
                         <a href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @KharthikDP</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
-                    <div class="row padding-top copyright font-white montserrat d-flex justify-content-center padding-bottom">
+                    <div class="row padding-top copyright font-white montserrat d-flex justify-content-center">
                         &copy;2020 / All Rights Reserved
+                    </div>
+                    <div class="row author montserrat d-flex justify-content-center padding-bottom">
+                        <a href="https://www.vathzen.in" target="_blank" rel="noopener noreferrer">VATHSAN</a>
                     </div>
                 </div>
             </footer>

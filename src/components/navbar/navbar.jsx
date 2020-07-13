@@ -14,16 +14,16 @@ class NavBar extends Component {
                     <div className="collapse navbar-collapse justify-content-center" id="navLinks">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <Link to="/about" className="nav-link montserrat">ABOUT</Link>
+                                <Link to="/" className="nav-link montserrat">WORK</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to="/bts" className="nav-link montserrat">BEHIND THE SCENES</Link>
+                                <Link to="/about" className="nav-link montserrat">ABOUT</Link>
                             </li>
                             <li class="nav-item">
                                 <Link to="/press" className="nav-link montserrat">PRESS</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to="/social" className="nav-link montserrat">SOCIAL</Link>
+                                <Link to="/bts" className="nav-link montserrat">BTS</Link>
                             </li>
                             <li class="nav-item">
                                 <Link to="/contact" className="nav-link montserrat">CONTACT</Link>

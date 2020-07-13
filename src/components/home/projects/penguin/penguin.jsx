@@ -11,16 +11,16 @@ class Penguin extends Component{
         return(
             <div id="penguin-outer">
                 <div class="container-fluid padding-top-2">
-                    <div class="row content-title font-white montserrat justify-content-center">
+                    <div class="row content-title  montserrat justify-content-center">
                         PENGUIN (2020)
                     </div>
-                    <div class="row content font-white montserrat justify-content-center">
+                    <div class="row content  montserrat justify-content-center">
                         Stone Bench Films - Passion Studios / Dir. Eashvar Karthic
                     </div>
                     <div class="row padding-top">
                         <ReactPlayer url='https://www.youtube.com/watch?v=1Mwp1CfFV-k' volume="0" width="100%" height="60vh"/>
                     </div>
-                    <div class="row">
+                    <div class="row padding-top padding-bottom">
                         <div class="col-6">
                             <img src={Image1} alt="Penguin Still 1" width="100%"/>
                         </div>
