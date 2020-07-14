@@ -7,7 +7,7 @@ import { ParallaxBanner} from 'react-scroll-parallax'
 
 import Showreel from '../../assets/video/showreel_1.mp4'
 import still1 from '../../assets/img/still1.jpg'
-import promo from '../../assets/img/promo.png'
+import Promo from '../../assets/img/other.png'
 
 class Home extends Component {
     render() {
@@ -51,7 +51,7 @@ class Home extends Component {
                     className="parallax-div"
                     layers={[
                         {
-                            image: promo,
+                            image: Promo,
                             amount: 0.3,
                         },
                     ]}
