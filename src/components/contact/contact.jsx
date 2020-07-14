@@ -14,30 +14,31 @@ class Contact extends Component {
                         Please use the form below:
                     </div>
                     <form class="padding-top">
+                        <label for="inputFName" class="montserrat content">Name *</label>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputFName" class="montserrat ">First Name</label>
                                 <input type="text" class="form-control" id="inputFName" />
+                                <label for="inputFName" class="montserrat content">First Name</label>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputLName" class="montserrat ">Last Name</label>
                                 <input type="text" class="form-control" id="inputLName" />
+                                <label for="inputLName" class="montserrat content">Last Name</label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="montserrat ">Email</label>
+                            <label for="inputEmail" class="montserrat content">Email *</label>
                             <input type="email" class="form-control" id="inputEmail"/>
                         </div>
                         <div class="form-group">
-                            <label for="inputSubject" class="montserrat ">Subject</label>
+                            <label for="inputSubject" class="montserrat content">Subject *</label>
                             <input type="text" class="form-control" id="inputSubject"/>
                         </div>
-                        <div class="form-row">
-                            <label for="inputMessage" class="montserrat ">Message</label>
+                        <div class="form-group">
+                            <label for="inputMessage" class="montserrat content">Message *</label>
                             <textarea class="form-control" id="inputMessage"/>
                         </div>
                         <div class="row d-flex justify-content-center padding-top padding-bottom">
-                            <button type="submit" class="btn btn-outline-dark montserrat">Send</button>
+                            <button type="submit" class="btn btn-light montserrat">Send</button>
                         </div>
                     </form>
                 </div>

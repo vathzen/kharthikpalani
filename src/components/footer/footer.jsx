@@ -5,14 +5,13 @@ import './footer.css'
 
 import Insta from '../../assets/img/instagram.svg'
 import Facebook from '../../assets/img/facebook.svg'
-import Youtube from '../../assets/img/youtube.svg'
 
 class Footer extends Component {
     render() {
         return (
             <footer id="footer">
                 <div class="container">
-                    <div class="row montserrat font-white d-flex justify-content-center padding-top">
+                    <div class="row montserrat font-white d-flex justify-content-center padding-top-2">
                         <Link to='/' class="text-dec font-white">KHARTHIK PALANI</Link>
                     </div>
                     <div class="row montserrat content font-white d-flex justify-content-center padding-top">
@@ -27,16 +26,12 @@ class Footer extends Component {
                     <div class="row padding-top d-flex justify-content-center">
                         <a href="https://www.instagram.com/kharthikdop/" target="_blank" rel="noopener noreferrer"><img src={Insta} alt="" class="socials" /></a>
                         <a href="https://www.facebook.com/Karthikpalanidop" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="" class="socials" /></a>
-                        <a href="https://www.youtube.com/user/insidekarthik" target="_blank" rel="noopener noreferrer"><img src={Youtube} alt="" class="socials" /></a>
-
-                    </div>
-                    <div class="row align-icons padding-top">
-                        <a href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @KharthikDP</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <div class="twitter-icon"><a href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @KharthikDP</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
                     </div>
                     <div class="row padding-top copyright font-white montserrat d-flex justify-content-center">
                         &copy;2020 / All Rights Reserved
                     </div>
-                    <div class="row author montserrat d-flex justify-content-center padding-bottom">
+                    <div class="row author montserrat d-flex justify-content-center padding-bottom-2">
                         <a href="https://www.vathzen.in" target="_blank" rel="noopener noreferrer">VATHSAN</a>
                     </div>
                 </div>

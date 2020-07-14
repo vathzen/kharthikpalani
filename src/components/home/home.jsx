@@ -5,10 +5,9 @@ import './home.css'
 
 import { ParallaxBanner} from 'react-scroll-parallax'
 
-import Showreel from '../../assets/video/showreel.mp4'
+import Showreel from '../../assets/video/showreel_1.mp4'
 import still1 from '../../assets/img/still1.jpg'
 import promo from '../../assets/img/promo.png'
-import Poster from '../../assets/img/poster.png'
 
 class Home extends Component {
     render() {
@@ -19,9 +18,9 @@ class Home extends Component {
                     layers={[
                         {
                             children: (
-                                <video className="showreel-video" autoPlay loop playsInline muted preload="auto" poster={Poster} src={Showreel} />
+                                <video className="showreel-video" autoPlay loop muted preload="auto" src={Showreel} height="100%"/>
                             ),
-                            amount: 0.2,
+                            amount: 0.3,
                         },
                     ]}
                     style={{
@@ -37,7 +36,7 @@ class Home extends Component {
                     layers={[
                         {
                             image: still1,
-                            amount: 0.2,
+                            amount: 0.3,
                         },
                     ]}
                     style={{
@@ -53,7 +52,7 @@ class Home extends Component {
                     layers={[
                         {
                             image: promo,
-                            amount: 0.2,
+                            amount: 0.3,
                         },
                     ]}
                     style={{
