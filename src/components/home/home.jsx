@@ -24,7 +24,7 @@ class Home extends Component {
                         },
                     ]}
                     style={{
-                        height: '80vh',
+                        height: '75vh',
                     }}
                 >
                     <div class="title-container">

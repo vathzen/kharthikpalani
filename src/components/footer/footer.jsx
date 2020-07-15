@@ -28,12 +28,12 @@ class Footer extends Component {
                         <a href="https://www.facebook.com/Karthikpalanidop" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="" class="socials" /></a>
                         <div class="twitter-icon"><a href="https://twitter.com/KharthikDP?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @KharthikDP</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
                     </div>
-                    <div class="row padding-top copyright font-white montserrat d-flex justify-content-center">
+                    <div class="row padding-top copyright font-white montserrat d-flex justify-content-center padding-bottom-2">
                         &copy;2020 / All Rights Reserved
                     </div>
-                    <div class="row author montserrat d-flex justify-content-center padding-bottom-2">
-                        <a href="https://www.vathzen.in" target="_blank" rel="noopener noreferrer">VATHSAN</a>
-                    </div>
+                    {/* <div class="row author montserrat d-flex justify-content-center padding-bottom-2">
+                        <a href="http://www.vathzen.in" target="_blank" rel="noopener noreferrer">VATHSAN</a>
+                    </div> */}
                 </div>
             </footer>
         )

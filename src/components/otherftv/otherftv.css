@@ -18,3 +18,17 @@
 .no-r-pad{
     padding-right: 0px;
 }
+
+.cursor{
+    cursor: pointer;
+}
+
+.caption{
+    position: absolute;
+    bottom: 0;
+}
+
+.modal-video-body{
+    max-width: 100000px !important;
+    width: 90% !important;
+}

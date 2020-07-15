@@ -38,7 +38,7 @@ class Contact extends Component {
                             <textarea class="form-control" id="inputMessage"/>
                         </div>
                         <div class="row d-flex justify-content-center padding-top padding-bottom">
-                            <button type="submit" class="btn btn-light montserrat">Send</button>
+                            <button type="submit" class="btn btn-light montserrat">Submit</button>
                         </div>
                     </form>
                 </div>
