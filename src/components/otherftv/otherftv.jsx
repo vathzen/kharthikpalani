@@ -21,7 +21,7 @@ class OtherFilmsTV extends Component {
 
     openModal(posn) {
         // this.setState({isOpen:true})
-        console.log("variable : ",posn)
+        console.log("variable : ", posn)
         switch (posn) {
             case '1R1C':
                 this.setState({ is1R1COpen: true })
@@ -62,17 +62,17 @@ class OtherFilmsTV extends Component {
                             </div>
                         </div>
                         <div class="row padding-bottom padding-top-1">
-                        <div class="col-6 no-l-pad no-r-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R1C')}>
-                            <ModalVideo channel='vimeo' isOpen={this.state.is2R1COpen} videoId='265532183' onClose={() => this.setState({ is2R1COpen: false })} />
-                            <img src="https://i.vimeocdn.com/video/695565440.png" alt="" width='100%'/>
-                            <p class="content caption font-white">&#9654; BlackStone Incense</p>
+                            <div class="col-6 no-l-pad no-r-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R1C')}>
+                                <ModalVideo channel='vimeo' isOpen={this.state.is2R1COpen} videoId='265532183' onClose={() => this.setState({ is2R1COpen: false })} />
+                                <img src="https://i.vimeocdn.com/video/695565440.png" alt="" width='100%' />
+                                <p class="content caption font-white">&#9654; BlackStone Incense</p>
+                            </div>
+                            <div class="col-6 no-r-pad no-l-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R2C')}>
+                                <ModalVideo channel='vimeo' isOpen={this.state.is2R2COpen} videoId='265532251' onClose={() => this.setState({ is2R2COpen: false })} />
+                                <img src="https://i.vimeocdn.com/video/695565552.png" alt="" width='100%' />
+                                <p class="content caption font-white">&#9654; Bryl Cream</p>
+                            </div>
                         </div>
-                        <div class="col-6 no-r-pad no-l-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R2C')}>
-                            <ModalVideo channel='vimeo' isOpen={this.state.is2R2COpen} videoId='265532251' onClose={() => this.setState({ is2R2COpen: false })} />
-                            <img src="https://i.vimeocdn.com/video/695565552.png" alt="" width='100%'/>
-                            <p class="content caption font-white">&#9654; Bryl Cream</p>
-                        </div>
-                    </div>
                     </div>
                 </div>
             </>

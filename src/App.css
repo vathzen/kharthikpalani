@@ -3,6 +3,15 @@
     src: url("./assets/fonts/acuminProWideLight.otf") format("opentype");
 }
 
+@font-face{
+    font-family: "Benton Sans Pro Wide";
+    src: url("./assets/fonts/BentonSansWide.ttf") format("truetype");
+}
+
 .montserrat{
     font-family: 'Acumen Pro',sans-serif;
+}
+
+.bentonsans{
+    font-family: 'Benton Sans Pro Wide',sans-serif;
 }
