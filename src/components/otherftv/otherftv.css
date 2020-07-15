@@ -19,6 +19,14 @@
     padding-right: 0px;
 }
 
+.small-left-pad{
+    padding-right: 5px;
+}
+
+.small-bottom-pad{
+    padding-bottom: 5px;
+}
+
 .cursor{
     cursor: pointer;
 }
@@ -28,7 +36,11 @@
     bottom: 0;
 }
 
+.modal-video{
+    background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
 .modal-video-body{
     max-width: 100000px !important;
-    width: 90% !important;
+    width: 83vw !important;
 }
