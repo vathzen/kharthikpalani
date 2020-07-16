@@ -3,8 +3,12 @@ import React, { Component } from 'react'
 import ModalVideo from 'react-modal-video';
 
 import './otherftv.css'
-
 import 'react-modal-video/scss/modal-video.scss';
+
+import Brylcream from '../../assets/img/thumbs/BrylCream.png'
+import Aptech from '../../assets/img/thumbs/Aptech.png';
+import Blackstone from '../../assets/img/thumbs/Blackstone.png'
+import Flake from '../../assets/img/thumbs/APFlake.png'
 
 class OtherFilmsTV extends Component {
 
@@ -67,24 +71,24 @@ class OtherFilmsTV extends Component {
                         <div class="row padding-top">
                             <div class="col-6 no-l-pad no-r-pad small-left-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('1R1C')}>
                                 <ModalVideo channel='vimeo' isOpen={this.state.is1R1COpen} videoId='285495294' vimeo={{autoplay:true,portrait:false,title:false,byline:false,muted:true}} onClose={() => this.closeModal('1R1C')} />
-                                <img src="https://i.vimeocdn.com/video/720178394.png" alt="" width='100%' />
+                                <img src={Aptech} alt="" width='100%' />
                                 <p class="content montserrat caption font-white">► APTech Learning</p>
                             </div>
                             <div class="col-6 no-r-pad no-l-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('1R2C')}>
                                 <ModalVideo channel='vimeo' isOpen={this.state.is1R2COpen} videoId='265532335' vimeo={{autoplay:true,portrait:false,title:false,byline:false,muted:true}} onClose={() => this.setState({ is1R2COpen: false })} />
-                                <img src="https://i.vimeocdn.com/video/695565790.png" alt="" width='100%' />
+                                <img src={Flake} alt="" width='100%' />
                                 <p class="content montserrat caption font-white">► Flake Excel</p>
                             </div>
                         </div>
                         <div class="row small-bottom-pad padding-top-1">
                             <div class="col-6 no-l-pad no-r-pad small-left-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R1C')}>
                                 <ModalVideo channel='vimeo' isOpen={this.state.is2R1COpen} videoId='265532183' vimeo={{autoplay:true,portrait:false,title:false,byline:false,muted:true}} onClose={() => this.setState({ is2R1COpen: false })} />
-                                <img src="https://i.vimeocdn.com/video/695565440.png" alt="" width='100%' />
+                                <img src={Blackstone} alt="" width='100%' />
                                 <p class="content montserrat caption font-white">► BlackStone Incense</p>
                             </div>
                             <div class="col-6 no-r-pad no-l-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R2C')}>
                                 <ModalVideo channel='vimeo' isOpen={this.state.is2R2COpen} videoId='265532251' vimeo={{autoplay:true,portrait:false,title:false,byline:false,muted:true}} onClose={() => this.setState({ is2R2COpen: false })} />
-                                <img src="https://i.vimeocdn.com/video/695565552.png" alt="" width='100%' />
+                                <img src={Brylcream} alt="" width='100%' />
                                 <p class="content montserrat caption font-white">► Bryl Cream</p>
                             </div>
                         </div>

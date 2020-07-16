@@ -9,8 +9,11 @@
 }
 
 .brand-title{
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .15em;
+    line-height: 1em;
 }
 
 .nav-link{
