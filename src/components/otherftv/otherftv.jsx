@@ -65,7 +65,7 @@ class OtherFilmsTV extends Component {
             <>
                 <div id="promo-outer">
                     <div class="container-fluid  padding-top-2">
-                        <div class="row content-title  montserrat justify-content-center">
+                        <div class="row oftv bentonsans justify-content-center">
                             Other Films and TV Projects
                     </div>
                         <div class="row padding-top">

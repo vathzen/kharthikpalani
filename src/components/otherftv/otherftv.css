@@ -44,3 +44,12 @@
     max-width: 100000px !important;
     width: 83vw !important;
 }
+
+.oftv{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .075em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
