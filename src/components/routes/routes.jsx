@@ -10,6 +10,7 @@ import OtherFilmsTV from '../otherftv/otherftv';
 
 import Penguin from '../home/projects/penguin/penguin';
 import Showreel from '../home/projects/showreel/showreel';
+import FrenchBriyani from '../home/projects/frenchbriyani/frenchbriyani';
 
 import Dinamani from '../press/articles/dinamani';
 import Vikatan from '../press/articles/vikatan';
@@ -19,7 +20,7 @@ export default function Routes(){
     return(
         <Switch>
             <Route exact path='/' component = {Home} />
-            <Route exact path='/bts' component = {BTS} />
+            <Route exact path='/behind-the-scenes' component = {BTS} />
             <Route exact path='/press' component = {Press} />
             <Route exact path='/about' component = {About} />
             <Route exact path='/contact' component = {Contact} />
@@ -27,6 +28,7 @@ export default function Routes(){
 
             <Route exact path='/penguin' component = {Penguin} />
             <Route exact path='/showreel' component = {Showreel} />
+            <Route exact path='/french-briyani' component = {FrenchBriyani} />
 
             <Route exact path='/press/dinamani-article' component = {Dinamani} />
             <Route exact path='/press/vikatan-article' component = {Vikatan} />

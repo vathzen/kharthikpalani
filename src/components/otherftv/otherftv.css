@@ -19,7 +19,7 @@
     padding-right: 0px;
 }
 
-.small-left-pad{
+.small-right-pad{
     padding-right: 5px;
 }
 
@@ -32,7 +32,9 @@
 }
 
 .caption{
+    font-family: 'Acumen Pro',sans-serif;
     position: absolute;
+    font-size: 12px;
     bottom: 0;
 }
 

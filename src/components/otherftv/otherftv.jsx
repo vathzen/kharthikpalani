@@ -69,7 +69,7 @@ class OtherFilmsTV extends Component {
                             Other Films and TV Projects
                     </div>
                         <div class="row padding-top">
-                            <div class="col-6 no-l-pad no-r-pad small-left-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('1R1C')}>
+                            <div class="col-6 no-l-pad no-r-pad small-right-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('1R1C')}>
                                 <ModalVideo channel='vimeo' isOpen={this.state.is1R1COpen} videoId='285495294' vimeo={{autoplay:true,portrait:false,title:false,byline:false,muted:true}} onClose={() => this.closeModal('1R1C')} />
                                 <img src={Aptech} alt="" width='100%' />
                                 <p class="content montserrat caption font-white">► APTech Learning</p>
@@ -81,7 +81,7 @@ class OtherFilmsTV extends Component {
                             </div>
                         </div>
                         <div class="row small-bottom-pad padding-top-1">
-                            <div class="col-6 no-l-pad no-r-pad small-left-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R1C')}>
+                            <div class="col-6 no-l-pad no-r-pad small-right-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R1C')}>
                                 <ModalVideo channel='vimeo' isOpen={this.state.is2R1COpen} videoId='265532183' vimeo={{autoplay:true,portrait:false,title:false,byline:false,muted:true}} onClose={() => this.setState({ is2R1COpen: false })} />
                                 <img src={Blackstone} alt="" width='100%' />
                                 <p class="content montserrat caption font-white">► BlackStone Incense</p>

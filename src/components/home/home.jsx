@@ -7,6 +7,7 @@ import { ParallaxBanner} from 'react-scroll-parallax'
 
 import Showreel from '../../assets/video/showreel_1.mp4'
 import still1 from '../../assets/img/still1.jpg'
+import still2 from '../../assets/img/Still2.png'
 import Promo from '../../assets/img/other.png'
 
 class Home extends Component {
@@ -14,7 +15,7 @@ class Home extends Component {
         return (
             <>
                 <ParallaxBanner
-                    className="parallax-div"
+                    id="showreel-div"
                     layers={[
                         {
                             children: (
@@ -32,7 +33,6 @@ class Home extends Component {
                     </div>
                 </ParallaxBanner>
                 <ParallaxBanner
-                    className="parallax-div"
                     layers={[
                         {
                             image: still1,
@@ -48,7 +48,21 @@ class Home extends Component {
                     </div>
                 </ParallaxBanner>
                 <ParallaxBanner
-                    className="parallax-div"
+                    layers={[
+                        {
+                            image: still2,
+                            amount: 0.3,
+                        },
+                    ]}
+                    style={{
+                        height: '80vh',
+                    }}
+                >
+                    <div class="title-container">
+                            <Link to='/french-briyani' class="font-white content-title montserrat text-dec">FRENCH BIRYANI</Link>
+                    </div>
+                </ParallaxBanner>
+                <ParallaxBanner
                     layers={[
                         {
                             image: Promo,

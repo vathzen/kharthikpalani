@@ -9,6 +9,7 @@
 }
 
 .brand-title{
+    color: rgba(0, 0, 0, 1) !important;
     font-size: 12px;
     font-weight: 500;
     font-style: normal;
@@ -19,4 +20,13 @@
 .nav-link{
     font-size: 11px;
     cursor: pointer;
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar-nav:hover > *{
+    opacity: 0.5;
+}
+
+.navbar-nav:hover > *:hover{
+    opacity: 1;
 }

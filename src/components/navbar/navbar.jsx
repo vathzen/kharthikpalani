@@ -23,7 +23,7 @@ class NavBar extends Component {
                                 <Link to="/press" className="nav-link montserrat">PRESS</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to="/bts" className="nav-link montserrat">BTS</Link>
+                                <Link to="/behind-the-scenes" className="nav-link montserrat">BTS</Link>
                             </li>
                             <li class="nav-item">
                                 <Link to="/contact" className="nav-link montserrat">CONTACT</Link>
