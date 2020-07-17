@@ -8,7 +8,7 @@ class Showreel extends Component{
         return(
             <div id="showreel-outer">
                 <div class="container-fluid video-container">
-                    <ReactPlayer url='https://vimeo.com/276634930' width='100%' height='100%'/>
+                    <ReactPlayer url='https://vimeo.com/276634930' width='100%' height='100%' config={{vimeo:{title:"false",byline:"false"}}}/>
                 </div>
             </div>
         )

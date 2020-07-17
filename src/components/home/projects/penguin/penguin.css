@@ -3,15 +3,32 @@
     height: 100%;
 }
 
-.no-pad{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-
 .penguin-title{
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     letter-spacing: .075em;
     line-height: 1em;
+}
+
+.all-pad{
+    padding: 1px;
+}
+
+@media screen and (max-width: 2560px) {
+    .gallery-col{
+        flex: 25%; 
+    }   
+}
+
+@media screen and (max-width: 2000px) {
+    .gallery-col{
+        flex: 50%; 
+    }   
+}
+
+@media screen and (max-width: 800px) {
+    .gallery-row{
+        flex-direction: column !important;
+    }   
 }

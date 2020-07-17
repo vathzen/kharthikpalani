@@ -7,7 +7,7 @@ import { ParallaxBanner} from 'react-scroll-parallax'
 
 import Showreel from '../../assets/video/showreel_1.mp4'
 import still1 from '../../assets/img/still1.jpg'
-import still2 from '../../assets/img/Still2.png'
+import still2 from '../../assets/img/Still2.jpg'
 import Promo from '../../assets/img/other.png'
 
 class Home extends Component {

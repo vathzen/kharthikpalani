@@ -17,7 +17,7 @@ class Footer extends Component {
                     <div class="row montserrat content font-white d-flex justify-content-center padding-top">
                         <Link to='/showreel' class="text-dec font-white  footer-links padding-footer-links">SHOWREEL</Link>
                         <Link to='/penguin' class="text-dec font-white  footer-links padding-footer-links">PENGUIN</Link>
-                        <Link to='/other-films-tv' class="text-dec font-white  footer-links padding-footer-links">OTHER FILMS & TV</Link>
+                        <Link to='/other-films-tv' class="text-dec font-white  footer-links padding-footer-links">OTHER FILM & TV</Link>
                         <Link to='/about' class="text-dec font-white  footer-links padding-footer-links">ABOUT</Link>
                         <Link to='/behind-the-scenes' class="text-dec font-white  footer-links padding-footer-links">BTS</Link>
                         <Link to='/press' class="text-dec font-white  footer-links padding-footer-links">PRESS</Link>
