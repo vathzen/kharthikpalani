@@ -79,8 +79,6 @@ class OtherFilmsTV extends Component {
                                 <img src={Flake} alt="" width='100%' />
                                 <p class="content montserrat caption font-white">► Flake Excel</p>
                             </div>
-                        </div>
-                        <div class="row small-bottom-pad padding-top-1">
                             <div class="col gallery-col all-pad no-l-pad no-r-pad d-flex flex-column align-items-center cursor" onClick={() => this.openModal('2R1C')}>
                                 <ModalVideo channel='vimeo' isOpen={this.state.is2R1COpen} videoId='265532183' vimeo={{ autoplay: true, portrait: false, title: false, byline: false, muted: true }} onClose={() => this.setState({ is2R1COpen: false })} />
                                 <img src={Blackstone} alt="" width='100%' />
