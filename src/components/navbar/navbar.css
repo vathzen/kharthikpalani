@@ -2,6 +2,10 @@
     background-color: white;
 }
 
+.navbar-brand{
+    margin-right: 0px;
+}
+
 .nav-height{
     min-height: 23vh;
     padding-top: 5vh;
@@ -21,6 +25,10 @@
     font-size: 11px;
     cursor: pointer;
     color: rgba(0, 0, 0, 1) !important;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 .navbar-nav:hover > *{
@@ -29,4 +37,14 @@
 
 .navbar-nav:hover > *:hover{
     opacity: 1;
+}
+
+.nav-pad{
+    padding-top: 1.5vh;
+}
+
+@media screen and (max-width: 992px){
+    .links-container{
+        flex-direction: row !important;
+    }
 }

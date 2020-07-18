@@ -12,7 +12,7 @@ class Footer extends Component {
             <footer id="footer">
                 <div class="container">
                     <div class="row montserrat font-white d-flex justify-content-center padding-top-2">
-                        <div class="text-dec font-white">KHARTHIK PALANI</div>
+                        <Link to='/' class="text-dec font-white">KHARTHIK PALANI</Link>
                     </div>
                     <div class="row montserrat content font-white d-flex justify-content-center padding-top">
                         <Link to='/showreel' class="text-dec font-white  footer-links padding-footer-links">SHOWREEL</Link>

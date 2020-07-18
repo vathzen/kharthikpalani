@@ -9,10 +9,10 @@ class NavBar extends Component {
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="container flex-column">
+                <div class="container flex-column w-50">
                     <Link to="/" className="navbar-brand bentonsans brand-title">KHARTHIK PALANI</Link>
-                    <div className="collapse navbar-collapse justify-content-center" id="navLinks">
-                        <ul class="navbar-nav">
+                    <div className="collapse navbar-collapse justify-content-center nav-pad" id="navLinks">
+                        <ul class="navbar-nav links-container">
                             <li class="nav-item">
                                 <Link to="/" className="nav-link montserrat">WORK</Link>
                             </li>

@@ -15,7 +15,7 @@ class Home extends Component {
         return (
             <>
                 <ParallaxBanner
-                    id="showreel-div"
+                    className="showreel-div"
                     layers={[
                         {
                             children: (
@@ -25,7 +25,7 @@ class Home extends Component {
                         },
                     ]}
                     style={{
-                        height: '65vh',
+                        height: '80vh',
                     }}
                 >
                     <div class="title-container">
