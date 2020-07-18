@@ -1,6 +1,8 @@
 import React from 'react'
 import { Switch,Route } from 'react-router-dom';
 
+import ScrollIntoView from './scrollIntoView';
+
 import Home from '../home/home'
 import BTS from '../bts/bts'
 import Press from '../press/press'
@@ -18,6 +20,7 @@ import CExpress from '../press/articles/cexpress';
 
 export default function Routes(){
     return(
+        <ScrollIntoView>
         <Switch>
             <Route exact path='/' component = {Home} />
             <Route exact path='/behind-the-scenes' component = {BTS} />
@@ -34,5 +37,6 @@ export default function Routes(){
             <Route exact path='/press/vikatan-article' component = {Vikatan} />
             <Route exact path='/press/cexpress-article' component = {CExpress} />
         </Switch>
+        </ScrollIntoView>
     );
 }
