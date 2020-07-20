@@ -27,8 +27,8 @@
     color: rgba(0, 0, 0, 1) !important;
     padding-left: 0;
     padding-right: 0;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    margin-left: .1rem;
+    margin-right: .1rem;
 }
 
 .navbar-nav:hover > *{

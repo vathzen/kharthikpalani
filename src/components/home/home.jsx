@@ -19,9 +19,9 @@ class Home extends Component {
                     layers={[
                         {
                             children: (
-                                <video className="showreel-video" autoPlay loop muted preload="auto" src={Showreel} height="100%"/>
+                                <video className="showreel-video" autoPlay loop muted preload="auto" src={Showreel}/>
                             ),
-                            amount: 0.3,
+                            amount: 0.0,
                         },
                     ]}
                     style={{
