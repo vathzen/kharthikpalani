@@ -21,3 +21,19 @@
     white-space: pre-wrap;
     -webkit-font-smoothing: subpixel-antialiased;
 }
+
+@media screen and (max-width: 2560px) {
+    .about-col{
+        flex: 50%; 
+    }   
+}
+
+@media screen and (max-width: 1000px) {
+    .about-row{
+        flex-direction: column !important;
+    }
+    
+    .mobile-pad{
+        padding-top: 3vh;
+    }
+}

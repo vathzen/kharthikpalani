@@ -53,3 +53,10 @@ footer{
     line-height: 1.75em;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1000px){
+    .padding-footer-links{
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+}
