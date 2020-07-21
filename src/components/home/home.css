@@ -36,3 +36,7 @@
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+.parallax-banner-layer-0{
+  background-size: auto !important;
+}

@@ -1,5 +1,4 @@
 import React , { Component } from 'react'
-import ReactPlayer from 'react-player/vimeo'
 
 import './showreel.css'
 
@@ -8,7 +7,7 @@ class Showreel extends Component{
         return(
             <div id="showreel-outer">
                 <div class="container-fluid video-container">
-                    <ReactPlayer url='https://vimeo.com/276634930' width='100%' height='100%' config={{vimeo:{title:"false",byline:"false"}}}/>
+                    <video className="video" autoPlay controls controlsList='nodownload' preload="auto" src='https://kpweb.s3.ap-south-1.amazonaws.com/showreel.mp4' height='100%' width='100%'/>
                 </div>
             </div>
         )
