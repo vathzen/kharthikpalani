@@ -13,16 +13,29 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css" />
 
   <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"nonce="8DhURAof"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"
+    nonce="8DhURAof"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
 
   <script>
     $(document).on('click', '.navbar-collapse', function (e) {
       if ($(e.target).is('a:not(".dropdown-toggle")')) {
         $(this).collapse('hide');
       }
+    });
+    $(window).load(function () {
+      console.log('in here bitches')
+      $('.flexslider').flexslider({
+        animation: "fade",
+        animationLoop: true,
+        controlNav: false,
+        slideshowSpeed: 5000,
+        directionNav: false
+      });
     });
 
   </script>

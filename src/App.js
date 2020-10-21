@@ -1,15 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { Router, Route } from 'react-router-dom'
 import { ParallaxProvider } from 'react-scroll-parallax'
 import './App.css';
 
+import history from './components/routes/history';
 import Routes from './components/routes/routes'
 import NavBar from './components/navbar/navbar'
 import Footer from './components/footer/footer'
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router history={history}>
       <Route path="*">
         <NavBar></NavBar>
         <ParallaxProvider>
@@ -17,7 +18,7 @@ function App() {
         </ParallaxProvider>
         <Footer></Footer>
       </Route>
-    </BrowserRouter>
+    </Router>
   );
 }
 

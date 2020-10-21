@@ -17,6 +17,8 @@ import FrenchBriyani from '../home/projects/frenchbriyani/frenchbriyani';
 import Dinamani from '../press/articles/dinamani';
 import Vikatan from '../press/articles/vikatan';
 import CExpress from '../press/articles/cexpress';
+import Behindwoods from '../press/articles/behindwoods';
+import NewIndianExpress from '../press/articles/indianexpress';
 
 export default function Routes(){
     return(
@@ -36,6 +38,8 @@ export default function Routes(){
             <Route exact path='/press/dinamani-article' component = {Dinamani} />
             <Route exact path='/press/vikatan-article' component = {Vikatan} />
             <Route exact path='/press/cexpress-article' component = {CExpress} />
+            <Route exact path='/press/behindwoods-article' component = {Behindwoods} />
+            <Route exact path='/press/indianexpress-article' component = {NewIndianExpress} />
         </Switch>
         </ScrollIntoView>
     );

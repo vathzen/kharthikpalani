@@ -40,3 +40,20 @@
 .parallax-banner-layer-0{
   background-size: auto !important;
 }
+
+.outer-flex{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+}
+
+.thbox{
+  background-image: initial;
+  position: relative;
+  overflow: hidden;
+}
+
+.flexslider{
+  margin: 1px !important;
+  border: none !important;
+}
