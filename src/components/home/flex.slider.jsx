@@ -22,10 +22,10 @@ const FlexSlider = (props) => {
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src={Img1} alt=""/>
+                                    <img src={Img2} alt=""/>
                                 </li>
                                 <li>
-                                    <img src={Img2} alt=""/>
+                                    <img src={Img1} alt=""/>
                                 </li>
                             </ul>
                         </div>
@@ -46,10 +46,10 @@ const FlexSlider = (props) => {
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src={Img1} alt=""/>
+                                    <img src={Img2} alt=""/>
                                 </li>
                                 <li>
-                                    <img src={Img2} alt=""/>
+                                    <img src={Img1} alt=""/>
                                 </li>
                             </ul>
                         </div>
@@ -70,10 +70,10 @@ const FlexSlider = (props) => {
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src={Img1} alt=""/>
+                                    <img src={Img2} alt=""/>
                                 </li>
                                 <li>
-                                    <img src={Img2} alt=""/>
+                                    <img src={Img1} alt=""/>
                                 </li>
                             </ul>
                         </div>
@@ -94,10 +94,10 @@ const FlexSlider = (props) => {
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src={Img1} alt=""/>
+                                    <img src={Img2} alt=""/>
                                 </li>
                                 <li>
-                                    <img src={Img2} alt=""/>
+                                    <img src={Img1} alt=""/>
                                 </li>
                             </ul>
                         </div>
@@ -118,10 +118,10 @@ const FlexSlider = (props) => {
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src={Img1} alt=""/>
+                                    <img src={Img2} alt=""/>
                                 </li>
                                 <li>
-                                    <img src={Img2} alt=""/>
+                                    <img src={Img1} alt=""/>
                                 </li>
                             </ul>
                         </div>
@@ -142,10 +142,10 @@ const FlexSlider = (props) => {
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src={Img1} alt=""/>
+                                    <img src={Img2} alt=""/>
                                 </li>
                                 <li>
-                                    <img src={Img2} alt=""/>
+                                    <img src={Img1} alt=""/>
                                 </li>
                             </ul>
                         </div>
